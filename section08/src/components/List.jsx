@@ -1,7 +1,7 @@
 import "./List.css";
 import TodoItem from "./TodoItem";
 
-const List = ({ todos }) => {
+const List = ({ todos, onUpdate }) => {
   return (
     <div className="List">
       <h4>Todo List 🌱</h4>
